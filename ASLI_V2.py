@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # اطلاعات بات و کانال‌ها
-BOT_TOKEN = os.getenv("BOT1_TOKEN", "").strip()  
+BOT_TOKEN = os.getenv("BOT2_TOKEN", "").strip()  
 STORAGE_CHANNEL = int(os.getenv("STORAGE_CHANNEL", "0").strip('"'))  
 REQUIRED_CHANNELS = os.getenv("REQUIRED_CHANNELS", "").split(",")
 salt = os.getenv("salt", "").strip()
