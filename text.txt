@@ -1,0 +1,4 @@
+BOT_TOKEN = os.getenv("BOT1_TOKEN")  
+STORAGE_CHANNEL = os.getenv("STORAGE_CHANNEL")  
+REQUIRED_CHANNELS = os.getenv("REQUIRED_CHANNELS")
+salt = os.getenv("salt")
